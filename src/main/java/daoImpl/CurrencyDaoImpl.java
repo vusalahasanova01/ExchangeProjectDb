@@ -62,6 +62,7 @@ public class CurrencyDaoImpl extends AbstractDao implements CurrencyDaoInter {
             return st.execute();
 
 
+
         } catch (Exception e) {
             e.printStackTrace();
             return false;
